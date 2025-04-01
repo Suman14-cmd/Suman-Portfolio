@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import ParticlesContainer from "./ParticlesContainer";
 import { Avatar, useMediaQuery } from "@mui/material";
+import myImage from "../assets/myImage.jpg";
 
 const Hero = () => {
   const isSmallScreen = useMediaQuery("(max-width:640px)");
@@ -24,7 +25,7 @@ const Hero = () => {
           </div>
           <motion.div variants={textVariant()}>
             <h1 className={`${styles.heroHeadText} text-white`}>
-              Hi, I'm {" "} 
+              Hi, I'm{" "}
               <span className="bg-gradient-to-r from-[#FF6B6B] via-[#FFB100] to-[#915EFF] bg-clip-text text-transparent">
                 Suman
               </span>
@@ -48,16 +49,15 @@ const Hero = () => {
         >
           <Avatar
             alt="my image"
-            src="./myImage.Jpg"
+            src={myImage}
             sx={
               !isSmallScreen
-                ? { width: 310, height: 350 }
+                ? { width: 310, height: 530 }
                 : { width: 100, height: 200 }
             }
           />
         </motion.div>
       </div>
-
       <div className="flex-center-center mb-40 w-full">
         <a href="#about">
           <div className="flex flex-col items-center gap-2">

@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
+import logo from "../assets/logo.jpg";
+
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -41,7 +43,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src="./logo.jpg" alt="logo" className="h-9 w-9 object-contain" />
+          <img src={logo} alt="logo" className="h-9 w-9 object-contain" />
           <p className="flex cursor-pointer text-[18px] font-bold text-white ">
             Suman Raja Vulli &nbsp;
             <span className="hidden sm:block"> | MERN Stack Developer</span>
