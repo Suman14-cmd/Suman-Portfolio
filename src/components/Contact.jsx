@@ -37,7 +37,7 @@ const Contact = () => {
             </div>
             <div>
               <a
-                href="https://github.com/Suman14-cmd/react-guru"
+                href="https://github.com/Suman14-cmd/Suman-Portfolio"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -68,7 +68,7 @@ const Contact = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1jziUEAFHIE-jhdXt8J7p40tyhNe24Uh-/view?usp=sharing"
+            href="https://drive.google.com/file/d/1mTxpqoogKliAKmpLGPZEl2HP2idzqy-2/view?usp=sharing"
             
           >
             <Button variant="outlined" endIcon={<ArrowOutward />}>
