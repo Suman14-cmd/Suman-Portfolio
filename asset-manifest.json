@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Suman-Portfolio/static/css/main.2522112a.css",
-    "main.js": "/Suman-Portfolio/static/js/main.af002dd1.js",
+    "main.js": "/Suman-Portfolio/static/js/main.214154af.js",
     "index.html": "/Suman-Portfolio/index.html",
     "main.2522112a.css.map": "/Suman-Portfolio/static/css/main.2522112a.css.map",
-    "main.af002dd1.js.map": "/Suman-Portfolio/static/js/main.af002dd1.js.map"
+    "main.214154af.js.map": "/Suman-Portfolio/static/js/main.214154af.js.map"
   },
   "entrypoints": [
     "static/css/main.2522112a.css",
-    "static/js/main.af002dd1.js"
+    "static/js/main.214154af.js"
   ]
 }
