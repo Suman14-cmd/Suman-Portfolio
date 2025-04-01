@@ -37,7 +37,7 @@ const ExperienceCard = ({ experience }) => {
           className="text-[16px] font-semibold text-secondary"
           style={{ margin: 0 }}
         >
-          {experience.company_name}
+          {experience.skills}
         </p>
       </div>
 

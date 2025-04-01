@@ -45,11 +45,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className=" mt-4 max-w-3xl text-[17px] leading-[30px] text-secondary"
       >
-        I'm a skilled software developer with experience in JavaScript, and
-        expertise in frameworks like React, Node.js, Express.js and MongoDB. I'm
-        a quick learner and collaborate closely with clients to create
-        efficient, scalable, and user-friendly solutions that solve real-world
-        problems. Let's work together to bring your ideas to life!
+      I’m a passionate Full Stack Developer with a hands-on expertise in modern frameworks like React.js, Node.js, Express.js, and MongoDB etc... With a keen eye for detail and performance, I craft solutions that are scalable, efficient, and intuitive.
+      I thrive on solving real-world challenges, optimizing workflows, and collaborating with clients to bring ideas to life. Let’s build something extraordinary together!
       </motion.p>
       <div
         className={`flex-center-center ${

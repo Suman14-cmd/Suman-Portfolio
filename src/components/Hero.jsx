@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { fadeIn, textVariant } from "../utils/motion";
+import { textVariant } from "../utils/motion";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
@@ -19,17 +19,25 @@ const Hero = () => {
           className={`top-[120px] mx-auto max-w-7xl ${styles.paddingX} flex flex-row items-start gap-5`}
         >
           <div className="mt-5 flex flex-col items-center justify-center">
-            <div className="h-5 w-5 rounded-full bg-[#915EFF]" />
-            <div className="violet-gradient h-40 w-1 sm:h-80" />
+            <div className="h-6 w-6 animate-pulse rounded-full bg-gradient-to-r from-[#ff8a00] to-[#ff6f00]" />
+            <div className="animate-fade-in h-40 w-1 bg-gradient-to-b from-[#ff6f00] to-transparent sm:h-80" />
           </div>
           <motion.div variants={textVariant()}>
             <h1 className={`${styles.heroHeadText} text-white`}>
-              Hi, I'm <span className="text-[#915EFF]">Rajesh</span>
+              Hi, I'm {" "} 
+              <span className="bg-gradient-to-r from-[#FF6B6B] via-[#FFB100] to-[#915EFF] bg-clip-text text-transparent">
+                Suman
+              </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-              I develop Full Stack Wep Applications, using{" "}
+            <p className={`${styles.heroSubText} mt-2 text-gray-300`}>
+              I develop{" "}
+              <span className="font-bold text-[#4ADE80]">Full Stack</span> Web
+              Applications, using
               <br className="hidden sm:block" />
-              <span className="gradient-text"> MERN Stack</span>
+              <span className="bg-gradient-to-r from-[#FF00FF] to-[#00FFFF] bg-clip-text text-lg font-bold text-transparent">
+                {" "}
+                MERN Stack
+              </span>
             </p>
           </motion.div>
         </div>
@@ -40,30 +48,41 @@ const Hero = () => {
         >
           <Avatar
             alt="my image"
-            src="./myImage1.png"
+            src="./myImage1.Jpg"
             sx={
               !isSmallScreen
-                ? { width: 200, height: 400 }
+                ? { width: 310, height: 350 }
                 : { width: 100, height: 200 }
             }
           />
         </motion.div>
       </div>
 
-      <div className="flex-center-center mb-40 w-full ">
+      <div className="flex-center-center mb-40 w-full">
         <a href="#about">
-          <div className="flex h-[64px] w-[35px] items-start justify-center rounded-3xl border-4 border-secondary p-2">
+          <div className="flex flex-col items-center gap-2">
             <motion.div
-              animate={{
-                y: [0, 24, 0],
-              }}
+              animate={{ y: [-8, 0, -8], opacity: [0.4, 1, 0.4] }}
               transition={{
-                duration: 1.5,
+                duration: 1.2,
                 repeat: Infinity,
-                repeatType: "loop",
+                ease: "easeInOut",
               }}
-              className="mb-1 h-3 w-3 rounded-full bg-secondary"
-            />
+              className="text-3xl text-secondary drop-shadow-[0_0_10px_#facc15]"
+            >
+              ▲
+            </motion.div>
+            <motion.div
+              animate={{ y: [8, 0, 8], opacity: [0.4, 1, 0.4] }}
+              transition={{
+                duration: 1.2,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
+              className="text-3xl text-secondary drop-shadow-[0_0_10px_#facc15]"
+            >
+              ▼
+            </motion.div>
           </div>
         </a>
       </div>

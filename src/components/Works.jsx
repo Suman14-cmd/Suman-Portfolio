@@ -25,13 +25,13 @@ const ProjectCard = ({
             className="h-full w-full rounded-2xl object-cover"
           />
 
-          <div className="card-img_hover absolute inset-0 m-3 flex justify-end">
+          {/* <div className="card-img_hover absolute inset-0 m-3 flex justify-end">
             <div
               onClick={() => window.open(live_link, "_blank")}
               className="black-gradient mr-1 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
             >
               <img
-                src="https://rajesh-mern-stack-portfolio-images.s3.ap-south-1.amazonaws.com/assets/webLink.png"
+                src="https://suman-mern-stack-portfolio-images.s3.ap-south-1.amazonaws.com/assets/webLink.png"
                 alt="live link"
                 className="h-full w-full rounded-full  object-contain"
               />
@@ -41,12 +41,12 @@ const ProjectCard = ({
               className="black-gradient flex h-10 w-10 cursor-pointer items-center justify-center rounded-full"
             >
               <img
-                src="https://rajesh-mern-stack-portfolio-images.s3.ap-south-1.amazonaws.com/assets/github.png"
+                src="https://suman-mern-stack-portfolio-images.s3.ap-south-1.amazonaws.com/assets/github.png"
                 alt="source code"
                 className="h-3/4 w-3/4 object-contain"
               />
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="mt-5">

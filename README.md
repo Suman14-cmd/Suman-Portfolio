@@ -1,3 +1,12 @@
+# Portfolio Website 🌟
+A modern React-based portfolio website built using:
+- ⚛️ React.js
+- 🎨 Tailwind CSS & MUI
+- 🎭 Framer Motion for animations
+- 🎮 Three.js for 3D elements
+
+## 🚀 Getting Started
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -6,7 +6,9 @@ const ParticlesContainer = () => {
   const particlesInit = useCallback(async (engine) => {
     await loadFull(engine);
   }, []);
+
   const particlesLoaded = useCallback(async () => {}, []);
+
   return (
     <Particles
       className="translate-z-0 absolute h-full w-full"
@@ -32,7 +34,7 @@ const ParticlesContainer = () => {
           },
         },
         particles: {
-          color: { value: "#e68e2e" },
+          color: { value: ["#e68e2e", "#f5d393", "#00ccff"] },
           links: {
             color: "#f5d393",
             distance: 150,
@@ -54,7 +56,7 @@ const ParticlesContainer = () => {
             value: 80,
           },
           opacity: { value: 0.5 },
-          shape: { type: "circle" },
+          shape: { type: ["circle", "star", "polygon"] }, 
           size: { value: { min: 1, max: 5 } },
         },
         detectRetina: true,

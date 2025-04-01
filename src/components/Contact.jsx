@@ -18,7 +18,7 @@ const Contact = () => {
           <h3 className={styles.sectionHeadText}>Contact.</h3>
           <div className="flex-center-center mt-8 flex-wrap gap-2">
             <div>
-              <a href="mailto:mern.dev.rajesh@gmail.com">
+              <a href="mailto:sumanvulli7@gmail.com">
                 <Button variant="outlined" endIcon={<Email />}>
                   Email
                 </Button>
@@ -26,7 +26,7 @@ const Contact = () => {
             </div>
             <div>
               <a
-                href="https://www.linkedin.com/in/rajesh-p-09b86724a"
+                href="https://www.linkedin.com/in/suman-raja-74490b241/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -37,7 +37,7 @@ const Contact = () => {
             </div>
             <div>
               <a
-                href="https://github.com/Rajeshesh"
+                href="https://github.com/Suman14-cmd/react-guru"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -54,9 +54,9 @@ const Contact = () => {
           className="md:h-auto md:flex-1"
         >
           <img
-            src="https://rajesh-mern-stack-portfolio-images.s3.ap-south-1.amazonaws.com/assets/contact.jpeg"
+            src="https://cdn-icons-png.flaticon.com/512/7269/7269950.png"
             alt="contact-us"
-            className="h-full w-full object-contain"
+            className="h-80 w-80 object-contain"
           />
         </motion.div>
       </div>
@@ -68,7 +68,8 @@ const Contact = () => {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://drive.google.com/file/d/1L1mVzD8cU6lc1yZZkZJ96Ej3IWRaljuW/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1jziUEAFHIE-jhdXt8J7p40tyhNe24Uh-/view?usp=sharing"
+            
           >
             <Button variant="outlined" endIcon={<ArrowOutward />}>
               Resume

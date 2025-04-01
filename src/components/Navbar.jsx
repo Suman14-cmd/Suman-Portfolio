@@ -41,9 +41,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src="./logo.png" alt="logo" className="h-9 w-9 object-contain" />
+          <img src="./logo.jpg" alt="logo" className="h-9 w-9 object-contain" />
           <p className="flex cursor-pointer text-[18px] font-bold text-white ">
-            Rajesh &nbsp;
+            Suman Raja Vulli &nbsp;
             <span className="hidden sm:block"> | MERN Stack Developer</span>
           </p>
         </Link>
@@ -66,8 +66,8 @@ const Navbar = () => {
           <img
             src={
               toggle
-                ? "https://rajesh-mern-stack-portfolio-images.s3.ap-south-1.amazonaws.com/assets/close.svg"
-                : "https://rajesh-mern-stack-portfolio-images.s3.ap-south-1.amazonaws.com/assets/menu.svg"
+                ? "https://suman-mern-stack-portfolio-images.s3.ap-south-1.amazonaws.com/assets/close.svg"
+                : "https://suman-mern-stack-portfolio-images.s3.ap-south-1.amazonaws.com/assets/menu.svg"
             }
             alt="menu"
             className="h-[28px] w-[28px] object-contain"
