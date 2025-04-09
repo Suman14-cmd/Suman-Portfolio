@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Suman-Portfolio/static/css/main.633e2593.css",
-    "main.js": "/Suman-Portfolio/static/js/main.b3b5a50e.js",
+    "main.js": "/Suman-Portfolio/static/js/main.938c6be2.js",
     "static/media/myImage.jpg": "/Suman-Portfolio/static/media/myImage.ebaddf8e9e1ec42d357d.jpg",
     "static/media/logo.jpg": "/Suman-Portfolio/static/media/logo.9e44566271b7b62273a0.jpg",
     "index.html": "/Suman-Portfolio/index.html",
     "main.633e2593.css.map": "/Suman-Portfolio/static/css/main.633e2593.css.map",
-    "main.b3b5a50e.js.map": "/Suman-Portfolio/static/js/main.b3b5a50e.js.map"
+    "main.938c6be2.js.map": "/Suman-Portfolio/static/js/main.938c6be2.js.map"
   },
   "entrypoints": [
     "static/css/main.633e2593.css",
-    "static/js/main.b3b5a50e.js"
+    "static/js/main.938c6be2.js"
   ]
 }
